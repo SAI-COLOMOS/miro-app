@@ -220,7 +220,7 @@ export default function StartingPage() {
                 icon="security"
                 onPress={async () =>
                   await Linking.openURL(
-                    "https://api.sai-colomos.dev/security-report"
+                    "https://api.sai-colomos.dev/security-report.pdf"
                   )
                 }
               >
@@ -291,7 +291,7 @@ export default function StartingPage() {
             </Text>
             <Text
               role="link"
-              href="https://api.sai-colomos.dev/security-report"
+              href="https://api.sai-colomos.dev/security-report.pdf"
               variant="bodyMedium"
             >
               Reporte de seguridad
