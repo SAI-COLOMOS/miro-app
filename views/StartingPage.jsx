@@ -144,7 +144,7 @@ export default function StartingPage() {
 
       <Container
         style={{
-          backgroundColor: theme.colors.primaryContainer,
+          backgroundColor: theme.colors.tertiaryContainer,
           shadowColor: theme.colors.shadow,
           shadowOffset: { width: 0, height: 0 },
           shadowRadius: 50,
